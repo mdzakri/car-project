@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    padding: 20px 8%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+    font-weight: 500;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.rent-btn {
+    color: black;
+    background-color: rgb(253, 208, 7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.right-icon {
+    display: flex;
+    align-items: center;
+}
+
+.right-icon a {
+border-left: 1px solid white;
+margin-left: 10px;
+padding-left: 10px;
+
+}
+
+
+.nav-num {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+}
